@@ -1,0 +1,90 @@
+/* Visma Pay bank payment form */
+
+.woocommerce #payment #visma-pay-bank-payments,
+#visma-pay-bank-payments {
+  position: relative;
+  clear: both;
+  overflow: auto;
+  margin: 0 0 10px 0;
+}
+
+.woocommerce #payment #visma-pay-bank-payments:after,
+#visma-pay-bank-payments:after {
+  content: ' ';
+  clear: both;
+}
+
+.woocommerce #payment ul.payment_methods li.payment_method_visma_pay,
+ul.payment_methods li.payment_method_visma_pay {
+  width: 100%;
+}
+
+.woocommerce #payment ul.payment_methods li.payment_method_visma_pay p,
+li.payment_method_visma_pay p {
+  clear: both;
+}
+
+.woocommerce #payment #visma-pay-bank-payments .bank-button,
+#visma-pay-bank-payments .bank-button {
+  background-color: #fff;
+  width: 110px;
+  height: 70px;
+  border: 2px solid #eee;
+  border-radius: 2px;
+  font-size: 10px;
+  line-height: 64px;
+  text-align: center;
+  float: left;
+  display: block;
+  margin: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+.woocommerce #payment #visma-pay-bank-payments .bank-button > img,
+#visma-pay-bank-payments .bank-button > img {
+	max-width: 106px;
+	margin: 0 !important;
+	max-height: 66px !important;
+	float: none !important;
+	vertical-align: middle !important;
+	display: inline;
+	position: static;
+}
+
+.woocommerce #payment #visma-pay-bank-payments .bank-button:hover,
+#visma-pay-bank-payments .bank-button:hover {
+  box-shadow: 1px 1px 4px rgba(50,100,150,0.4);
+  cursor: pointer;
+}
+
+.woocommerce #payment #visma-pay-bank-payments .bank-button.selected,
+#visma-pay-bank-payments .bank-button.selected {
+  border-color: #59416c;   
+}
+
+.woocommerce #payment #visma-pay-bank-payments .bank-button-big,
+#visma-pay-bank-payments .bank-button-big {
+  background-color: #fff;
+  width: 226px;
+  height: 136px;
+  border: 2px solid #eee;
+  border-radius: 2px;
+  font-size: 10px;
+  line-height: 64px;
+  text-align: center;
+  float: left;
+  display: block;
+  margin: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+.woocommerce #payment #visma-pay-bank-payments .bank-button-big > img,
+#visma-pay-bank-payments .bank-button-big > img {
+  max-width: 222px;
+  margin: 0 !important;
+  max-height: 133px !important;
+  float: none !important;
+  vertical-align: middle !important;
+  display: inline;
+  position: static;
+}
